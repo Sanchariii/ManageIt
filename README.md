@@ -9,16 +9,20 @@
 <table>
 <tr>
 <td>
-This application can be used by any user to store the personal employee details of the employees in the workplace including - name, email, department and all update/delete the details later as per requirements. The user can also store official notes related to workplace and can also delete the notes later once they are done with them. 
+This application can be used by any user to store the personal employee details of the employees in the workplace including - name, email, department, all update/delete and filter the details later as per requirements. The admins can also group employee related to workplace and can also delete them later once they are done with them. 
 </td>
 </tr>
 </table>
 
-There are 2 different sections in the app as follows -
+There are 4 different sections in the app as follows -
 
-1. <b>Employee Details Section</b> - This section contains a table to display the details of the employees stored. It also has a button which opens a form to add new employees. There is also an edit & delete option along with details of each employee to update the details of employees or delete them when required.
+1. <b>Employee Details Section</b> - This section contains a table to display the details of the employees stored which includes : Full Name , Salary , Bonus , Phone Number ,Role , Department , Location , HireDate.
 
-2. <b>Notes Section</b> - This section contains a table to display the list of unfinished notes. It also has a form to add new notes and a delete option beside each notes to delete the notes if the task is finished.
+2. <b>Add Employee Section</b> - This section contains a table where user adds the details of a new employee.
+
+3. <b>Remove Employee Section</b> - In this section , user can delete the details of the employee from the list which is not required anymore.
+
+4. <b>Filter Employee Section</b> - This section is the filtering section of employee so that we can get details of any employee when needed immediately.
 
 ## Tech Stack Used -
 
@@ -26,37 +30,40 @@ There are 2 different sections in the app as follows -
 
 ## Libraries Used -
 
-<img src="https://img.shields.io/badge/flask%20-%2314354C.svg?&style=for-the-badge&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/sqlalchemy%20-%2314354C.svg?&style=for-the-badge&logo=sqlalchemy&logoColor=white"/>
+* Django
+
+* SQLite
 
 ## Structure Of The Project
 
-The home page of the application contains -
-  1. <b>Landing Page</b> - Here users can get started with using our application
-  2. <b>Link to Employee Section</b> - Add, Update, Delete employee details for any workplace
-  3. <b>Link to Notes Section</b> - Add, Update, Delete notes for any workplace
+* The home page of the application contains -
+   1. <b>Landing Page</b> - Here users can get started with using our application
+   2. <b>Link to Employee Section</b> - Add, Update, Delete employee details for any workplace
 
+* A admin page which can be accessed by the administrative department of the office for the detailed information of the employees.
+  
 ## UI Of The Web Application
 
 ### 1. Home Page
 <pre>
-<img src="https://user-images.githubusercontent.com/78029145/193518919-b446f813-6451-404b-bedf-8813e3aae51b.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/193518944-c6b27421-db3f-4890-b261-e80992ac600b.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/193519249-ec0ed508-dc75-471e-bba2-ad79253b91fb.png" width="1000"> 
+<img src="https://user-images.githubusercontent.com/78029145/193518919-b446f813-6451-404b-bedf-8813e3aae51b.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/193518944-c6b27421-db3f-4890-b261-e80992ac600b.png" width="1000">
 </pre>
 
 
 ### 2. Employee Details Page
 <pre>
-<img src="https://user-images.githubusercontent.com/78029145/179470942-b350838a-519f-49b6-bc91-53d3de1ce7d6.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179471056-b111aadf-a6c3-43f0-863f-fedf1be9fbf1.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179471245-40e4660d-a3c8-4689-b4d4-97b3a530f133.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179471314-61853de8-5cf6-4a65-9f55-c4418269d3fa.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179471553-6b8937a3-5b23-4a2b-a14c-c21396bc2f8e.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179473003-c956ea22-3687-4f5d-842c-0db2c922b42c.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179472319-ce0ee974-80f0-49e9-84b6-961b62926720.png" width="1000">
+  <img width="960" alt="image" src="https://github.com/Sanchariii/ManageIt/assets/88083502/07691b31-11f2-4aba-874d-59f274f4633c"><img width="960" alt="image" src="https://github.com/Sanchariii/ManageIt/assets/88083502/80c37af4-d098-4df0-bb52-6349c98b541b"><img width="960" alt="image" src="https://github.com/Sanchariii/ManageIt/assets/88083502/2fe5b34c-a9c8-459f-ba93-ccd9a8ac6e08"><img width="960" alt="image" src="https://github.com/Sanchariii/ManageIt/assets/88083502/0d14a7cd-f6e0-46b4-807f-527499c78f74">
 </pre>
 
-### 3. Notes Page
+### 3. Admin Page
 <pre>
-<img src="https://user-images.githubusercontent.com/78029145/179474203-ce6339ae-6b63-4424-a973-2761a3b869fa.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179474259-bad9799b-dcc7-42d7-8b75-7c5731c47d7d.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179474361-475fe685-c693-4eb1-8a1c-284be84f37b8.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179474409-6ae9f999-1f75-4775-83ba-a0fdb26a5708.png" width="1000">
+  <img width="960" alt="image" src="https://github.com/Sanchariii/ManageIt/assets/88083502/6c55bdc3-6990-4b67-970e-2aa520ee7f66">
 </pre>
 
 ## Future Prospects
 
-- Add a Login-Logout system in the application 
 - Add a Meeting Section to update about the upcoming or incomplete meetings in the workplace
+- Add more dynamic layouts in the application
 
 ## Run Locally
 
@@ -64,4 +71,23 @@ The home page of the application contains -
 
 1.2 `cd ManageIt`
 
-1.3 `flask run`
+1.3 `python manage.py createsuperuser`
+
+1.4 `python manage.py runserver`
+
+## Contributing
+ 
+ Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+* Fork the repository.
+
+* Create a new branch (`git checkout -b feature/your_feature_name`).
+
+* Make your changes.
+
+* Commit your changes (`git commit -am 'Add new feature'`).
+
+* Push to the branch (`git push origin feature/your_feature_name`).
+
+* Create a new Pull Request.
+
