@@ -14,7 +14,7 @@ This application can be used by any user to store the personal employee details 
 </tr>
 </table>
 
-There are 4 different sections in the app as follows -
+There are 4 different sections in the app as follows:
 
 1. <b>Employee Details Section</b> - This section contains a table to display the details of the employees stored which includes : Full Name , Salary , Bonus , Phone Number ,Role , Department , Location , HireDate.
 
@@ -24,11 +24,11 @@ There are 4 different sections in the app as follows -
 
 4. <b>Filter Employee Section</b> - This section is the filtering section of employee so that we can get details of any employee when needed immediately.
 
-## Tech Stack Used -
+## Tech Stack Used 
 
 <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/html5%20-%2314354C.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%2314354C.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/javascript%20-%2314354C.svg?&style=for-the-badge&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/bootstrap%20-%2314354C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/> <img src="https://img.shields.io/badge/mysql%20-%2314354C.svg?&style=for-the-badge&logo=mysql&logoColor=white"/> 
 
-## Libraries Used -
+## Libraries Used 
 
 * Django
 
@@ -36,7 +36,7 @@ There are 4 different sections in the app as follows -
 
 ## Structure Of The Project
 
-* The home page of the application contains -
+* The home page of the application contains:
    1. <b>Landing Page</b> - Here users can get started with using our application
    2. <b>Link to Employee Section</b> - Add, Update, Delete employee details for any workplace
 
@@ -67,13 +67,35 @@ There are 4 different sections in the app as follows -
 
 ## Run Locally
 
-1.1 `git clone <repo link>`
+1. Clone the project
+  ```bash
+    git clone https://github.com/Sanchariii/ManageIt.git
+  ```
 
-1.2 `cd ManageIt`
+2. Go to the project directory
+  ```bash
+    cd ManageIt
+  ```
 
-1.3 `python manage.py createsuperuser`
+3. Install dependencies
+  ```bash
+    pip install -r requirements.txt
+  ```
 
-1.4 `python manage.py runserver`
+4. Start the server
+  ```bash
+    python manage.py runserver
+  ```
+
+5. Create a superuser
+  ```bash
+    python manage.py createsuperuser
+  ```
+
+6. Run the application on your local server
+  ```bash
+    python manage.py runserver
+  ```
 
 ## Contributing
  
@@ -90,4 +112,8 @@ There are 4 different sections in the app as follows -
 * Push to the branch (`git push origin feature/your_feature_name`).
 
 * Create a new Pull Request.
+
+## License
+
+This project is licensed under the [DBaJ-NC-CFL](./LICENCE.md).
 
